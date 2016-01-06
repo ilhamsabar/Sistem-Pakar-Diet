@@ -1,0 +1,210 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="info.androidhive.materialdesign.activity.HomeFragment">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Konsultasi Diet"
+                android:gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/hati" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Cari Tahu Menu Diet Sehat Anda Disini \n Karna Diet yang baik memperbaiki metabolisme tubuh"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/umur"
+        android:hint="Umur"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/beratbadan"
+        android:hint="Berat Badan"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tinggibadan"
+        android:inputType="number"
+        android:hint="Tinggi Badan" />
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jenis Kelamin"
+                android:textSize="20dp"/>
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/rblaki"
+                    android:text="@string/jk_lk" />
+                <RadioButton
+                    android:id="@+id/rbperempuan"
+                    android:text="@string/jk_pr" />
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Golongan Darah"
+                android:textSize="20dp"/>
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/golA"
+                    android:text="@string/golA" />
+                <RadioButton
+                    android:id="@+id/golB"
+                    android:text="@string/golB" />
+                <RadioButton
+                    android:id="@+id/golAB"
+                    android:text="@string/golAB" />
+                <RadioButton
+                    android:id="@+id/golO"
+                    android:text="@string/golO" />
+            </RadioGroup>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Proses"
+        style="@style/tombol"
+        android:text="DIAGNOSA"/>
+</LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="50">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/jdlkategoribb"
+                        android:gravity="center" />
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/imgkategoribb" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:gravity="center"
+                        android:id="@+id/kategoribb"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="50">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/olahragadisarankan"
+                        android:gravity="center" />
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/olahragaimage" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:gravity="center"
+                        android:id="@+id/olahraga"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="50">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/makandisarankan"
+                        android:gravity="center" />
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp"
+                        android:id="@+id/makanan" />
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/output"
+                        android:gravity="center_horizontal"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/foother"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
