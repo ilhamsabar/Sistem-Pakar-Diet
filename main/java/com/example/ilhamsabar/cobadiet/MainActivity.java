@@ -7,8 +7,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
@@ -27,6 +25,9 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
                 setSupportActionBar(mToolbar);
                 getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+//                SharedPreferences sp = getSharedPreferences("datadiet", Context.MODE_PRIVATE);
+//                SharedPreferences.Editor ed = sp.edit();
+
                 drawerFragment = (FragmentDrawer)
                         getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
                 drawerFragment.setUp(R.id.fragment_navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), mToolbar);
@@ -37,27 +38,27 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
 
 
 
-        @Override
-        public boolean onCreateOptionsMenu(Menu menu) {
-                // Inflate the menu; this adds items to the action bar if it is present.
-                getMenuInflater().inflate(R.menu.menu_main, menu);
-                return true;
-        }
-
-        @Override
-        public boolean onOptionsItemSelected(MenuItem item) {
-                // Handle action bar item clicks here. The action bar will
-                // automatically handle clicks on the Home/Up button, so long
-                // as you specify a parent activity in AndroidManifest.xml.
-                int id = item.getItemId();
-
-                //noinspection SimplifiableIfStatement
-                if (id == R.id.action_settings) {
-                        return true;
-                }
-
-                return super.onOptionsItemSelected(item);
-        }
+//        @Override
+//        public boolean onCreateOptionsMenu(Menu menu) {
+//                // Inflate the menu; this adds items to the action bar if it is present.
+//                getMenuInflater().inflate(R.menu.menu_main, menu);
+//                return true;
+//        }
+//
+//        @Override
+//        public boolean onOptionsItemSelected(MenuItem item) {
+//                // Handle action bar item clicks here. The action bar will
+//                // automatically handle clicks on the Home/Up button, so long
+//                // as you specify a parent activity in AndroidManifest.xml.
+//                int id = item.getItemId();
+//
+//                //noinspection SimplifiableIfStatement
+////                if (id == R.id.action_settings) {
+////                        return true;
+////                }
+//
+//                return super.onOptionsItemSelected(item);
+//        }
 
         @Override
         public void onDrawerItemSelected(View view, int position) {
@@ -70,19 +71,23 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
                 switch (position) {
                         case 0:
                                 fragment = new HomeFragment();
-                                title = "My Diet";
+                                title = "Diagnosa";
                                 break;
                         case 1:
+                                fragment = new MainTab();
+                                title = "Diagnosa dan Monitoring";
+                                break;
+                        case 2:
                                 fragment = new MetodeDietFragment();
                                 title = "Metode Diet";
                                 break;
-                        case 2:
+                        case 3:
                                 fragment = new TipsDietFragment();
                                 title = "Kalkulator BMI";
                                 break;
-                        case 3:
+                        case 4:
                                 fragment = new AboutFragment();
-                                title = "About";
+                                title = "Tentang";
                                 break;
                         default:
                                 break;

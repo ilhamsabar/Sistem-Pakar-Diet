@@ -1,7 +1,7 @@
 <resources>
 
     <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
-
+        <item name="android:windowSoftInputMode">stateHidden</item>
     </style>
 
     <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -10,6 +10,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowSoftInputMode">stateHidden</item>
     </style>
 
     <style name="tombol" parent="@android:style/Widget.Button">
@@ -24,5 +25,6 @@
         <item name="android:background">@drawable/tombol</item>
         <item name="android:padding">10dip</item>
     </style>
+
 
 </resources>

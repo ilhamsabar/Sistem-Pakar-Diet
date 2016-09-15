@@ -18,7 +18,7 @@ import java.util.List;
  * Created by ilham sabar on 11/4/2015.
  */
 public class DBHelper extends SQLiteOpenHelper {
-    private static String DB_PATH = "/data/data/com.example.ilhamsabar.cobadiet/databases/";
+    private static String DB_PATH = "/data/data/com.ilhamsabar.dietsehat/databases/";
     private static String DB_NAME = "diet2.sqlite";
     private static String TABLE = "dietmayo";
 

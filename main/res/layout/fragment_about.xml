@@ -5,6 +5,10 @@
     android:orientation="vertical"
     tools:context="info.androidhive.materialdesign.activity.HomeFragment">
 
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
 <LinearLayout
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
@@ -15,11 +19,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <ImageView
+                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="130dp"
-                android:src="@drawable/icon"
-                android:layout_gravity="center"/>
+                android:src="@drawable/diet1"
+                android:layout_gravity="center" />
             <TextView
+                android:layout_marginTop="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Diet Sehat = Hidup Sehat"
@@ -39,17 +45,33 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Tentang Aplikasi"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:textSize="20dp"
-                android:background="@color/accent_material_dark"/>
+                android:textSize="25dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TENTANG APLIKASI"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+        </RelativeLayout>
+
 
             <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/tentang"
@@ -61,58 +83,201 @@
 
         </android.support.v7.widget.CardView>
 
-    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp">
-
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Developer"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:textSize="20dp"
-            android:background="@color/accent_material_dark"/>
-
-            <LinearLayout
-                android:layout_width="fill_parent"
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <ImageView
-                    android:src="@drawable/ic_profile"
-                    android:layout_height="70dp"
-                    android:layout_width="wrap_content"/>
-                <TextView
-                    android:layout_width="wrap_content"
+                android:layout_margin="8dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="M. Ilham Sabar"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textSize="17dp"
-                    android:gravity="center"/>
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            android:background="@color/colorPrimaryDark"/>
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="DEVELOPER"
+                            android:textSize="15dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"/>
+                    </RelativeLayout>
 
-            </LinearLayout>
-            <TextView
-                android:layout_width="fill_parent"
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:src="@drawable/profile"
+                            android:layout_height="70dp"
+                            android:layout_width="70dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginBottom="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="50dp"
+                            android:text="M. Ilham Sabar \n UINAM-DEV"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="17dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="UINAM-DEV "
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:textStyle="italic"
-                android:textSize="17dp"
-                android:background="@color/accent_material_dark"/>
+                android:layout_margin="8dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            android:background="@color/colorPrimaryDark"/>
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="CONTACT"
+                            android:textSize="15dp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:src="@drawable/facebook"
+                            android:layout_height="50dp"
+                            android:layout_width="50dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="60dp"
+                            android:id="@+id/facebook"/>
+
+                            <ImageView
+                                android:src="@drawable/insta"
+                                android:layout_height="50dp"
+                                android:layout_width="50dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/instagram"/>
+
+                            <ImageView
+                                android:src="@drawable/twitter"
+                                android:layout_height="50dp"
+                                android:layout_width="50dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:id="@+id/twitter"/>
+
+                            <ImageView
+                                android:src="@drawable/google"
+                                android:layout_height="50dp"
+                                android:layout_width="50dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:id="@+id/gmail"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            android:background="@color/colorPrimaryDark"/>
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Kritik dan Saran"
+                            android:textSize="15dp"
+                            android:gravity="center"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:src="@drawable/mail"
+                            android:layout_height="50dp"
+                            android:layout_width="50dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/gmail1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="60200111048@uin-alauddin.ac.id"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="17dp"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
 
         </LinearLayout>
-    </android.support.v7.widget.CardView>
+
+
 </LinearLayout>
 
 
 
 
-
+    </ScrollView>
 </LinearLayout>

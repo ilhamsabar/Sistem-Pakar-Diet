@@ -1,5 +1,938 @@
 <resources>
-    <string name="app_name">My Diet</string>
+    <!-- Jenis Penyakit  -->
+    <string name="maag"> 1. konsumsi gorengan yang terlalu banyak\n 2. susu olahan yang tinggi lemak (Mentega dengan kadar lemak tinggi)\n 3. Cokelat\n 4. Produk hasil fermentasi (tape dan oncom)\n
+                                        5. Buah-buahan yang banyak mengandung gas\n 6. Minuman bersoda\n 7. Kurangi meminum kopi dan teh
+    </string>
+    <string name="hipertensi">1. Makanan Olahan (kalengan, sosis, ham dan dendeng)\n
+                                        2. Saus Tomat\n
+                                        3. Makanan dan Minuman yang mengandung Kafein\n
+                                        4. Makanan Berlemak\n
+                                        5. Kurangi makanan dan minuman yang mengandung gula\n
+    </string>
+    <string name="asam_lambung">1. Minuman bersoda\n
+                                2. Buah dan Sayuran : kedondong, pisang ambon, nangka, sawi dan kol.\n
+                                3. Makanan berlemak\n
+                                4. Makanan pedas
+    </string>
+    <string name="kolestrol">1. Daging kambing, kuda dan sapi \n
+                            2. jeroan (Limpa, Hati, paru, ginjal dan usus)\n
+                            3. ekstrak daging (abon)\n" +
+                            4. seafod (ikan sotong, ikan sarden, udang, cumi-cumi, kepiting, ikan teri dan tiram)\n
+                            5. Kacang-kacangan (kedelai, kacang hijau, melinjo, dan kacang tanah)\n
+                            6. makanan berlemak\n
+                            7. keju\n
+                            8. es krim
+    </string>
+
+    <string name="diabetes">1. Makanan yang digoreng\n
+                                        2. Makanan dan minuman berkafein\n
+                                        3. minuman beralkohol\n
+                                        4. Buah bercita rasa manis\n
+                                        5. Nasi dan umbi-umbian\n
+                                        6. Roti\n
+                                        7. Pasta Putih
+    </string>
+    <string name="maagdiabetes">1. Makanan dengan cara digoreng \n
+                                2. susu olahan yang tinggi lemak (Mentega dengan kadar lemak tinggi)\n
+                                3. Cokelat \n
+                                4. Produk hasil fermentasi (tape dan oncom)\n
+                                5. Buah-buahan yang banyak mengandung gas\n
+                                6. Minuman bersoda\n
+                                7. Kurangi meminum kopi dan teh \n
+                                8. Makanan dan minuman berkafein\n
+                                9. minuman beralkohol\n
+                                10. Buah bercita rasa manis\n
+                                11. Nasi dan umbi-umbian\n
+                                12. Roti\n
+                                13. Pasta Putih
+    </string>
+    <string name="maagkolestrol">
+        1. Daging kambing, kuda dan sapi\n
+        2. jeroan (Limpa, Hati, paru, ginjal dan usus)\n
+        3. ekstrak daging (abon)\n
+        4. seafod (ikan sotong, ikan sarden, udang, cumi-cumi, kepiting, ikan teri dan tiram)\n
+        5. Kacang-kacangan (kedelai, kacang hijau, melinjo, dan kacang tanah)\n
+        6. makanan berlemak\n
+        7. keju\n
+        8. es krim \n
+        9. konsumsi gorengan yang terlalu banyak\n
+        10. susu olahan yang tinggi lemak (Mentega dengan kadar lemak tinggi)\n
+        11. Cokelat\n
+        12. Produk hasil fermentasi (tape dan oncom)\n
+        13. Buah-buahan yang banyak mengandung gas\n
+        14. Minuman bersoda\n
+        15. Kurangi meminum kopi dan teh
+    </string>
+    <string name="maaghipertensi">
+        1. konsumsi gorengan yang terlalu banyak\n
+        2. susu olahan yang tinggi lemak (Mentega dengan kadar lemak tinggi)\n
+        3. Cokelat\n
+        4. Produk hasil fermentasi (tape dan oncom)\n
+        5. Buah-buahan yang banyak mengandung gas\n
+        6. Minuman bersoda\n
+        7. Kurangi meminum kopi dan teh\n
+        8. Makanan Olahan (kalengan, sosis, ham dan dendeng)\n
+        9. Saus Tomat\n
+        10. Makanan dan Minuman yang mengandung Kafein\n
+        11. Makanan Berlemak\n
+        12. Kurangi makanan dan minuman yang mengandung gula
+    </string>
+    <string name="maagasamlambung">
+        1. konsumsi gorengan yang terlalu banyak\n
+        2. susu olahan yang tinggi lemak (Mentega dengan kadar lemak tinggi)\n
+        3. Cokelat\n
+        4. Produk hasil fermentasi (tape dan oncom)\n
+        5. Buah-buahan yang banyak mengandung gas\n
+        6. Minuman bersoda\n
+        7. Kurangi meminum kopi dan teh\n
+        8. Buah dan Sayuran : kedondong, pisang ambon, nangka, sawi dan kol.\n
+        9. Makanan berlemak\n
+        10. Makanan pedas
+    </string>
+    <string name="diabeteskolestrol">
+        1. Makanan dengan cara digoreng\n
+        2. Makanan dan minuman berkafein\n
+        3. minuman beralkohol\n
+        4. Buah bercita rasa manis\n
+        5. Nasi dan umbi-umbian\n
+        6. Roti\n
+        7. Pasta Putih \n
+        8. Daging kambing, kuda dan sapi\n
+        9. jeroan (Limpa, Hati, paru, ginjal dan usus)\n
+        10. ekstrak daging (abon)\n
+        11. seafod (ikan sotong, ikan sarden, udang, cumi-cumi, kepiting, ikan teri dan tiram)\n
+        12. Kacang-kacangan (kedelai, kacang hijau, melinjo, dan kacang tanah)\n
+        13. makanan berlemak\n
+        14. keju\n
+        15. es krim\n
+    </string>
+    <string name="diabetesasamlambung">
+        1. Makanan dengan cara digoreng\n
+        2. Makanan dan minuman berkafein\n
+        3. minuman beralkohol\n
+        4. Buah bercita rasa manis\n
+        5. Nasi dan umbi-umbian\n
+        6. Roti\n
+        7. Pasta Putih\n
+        8. Minuman bersoda\n
+        9. Buah dan Sayuran : kedondong, pisang ambon, nangka, sawi dan kol.\n
+        10. Makanan berlemak\n
+        11. Makanan pedas
+    </string>
+    <string name="diabeteshipertensi">
+        1. Makanan dengan cara digoreng\n
+        2. Makanan dan minuman berkafein\n
+        3. minuman beralkohol\n
+        4. Buah bercita rasa manis\n
+        5. Nasi dan umbi-umbian\n
+        6. Roti\n
+        7. Pasta Putih\n
+        8. Makanan Olahan (kalengan, sosis, ham dan dendeng)\n
+        9. Saus Tomat\n
+        10. Makanan dan Minuman yang mengandung Kafein\n
+        11. Makanan Berlemak\n
+        12. Kurangi makanan dan minuman yang mengandung gula\n
+    </string>
+    <string name="kolestrolhipertensi">
+        1. Daging kambing, kuda dan sapi\n
+        2. jeroan (Limpa, Hati, paru, ginjal dan usus)\n
+        3. ekstrak daging (abon)\n
+        4. seafod (ikan sotong, ikan sarden, udang, cumi-cumi, kepiting, ikan teri dan tiram)\n
+        5. Kacang-kacangan (kedelai, kacang hijau, melinjo, dan kacang tanah)\n
+        6. makanan berlemak\n
+        7. keju\n
+        8. es krim\n
+        9. Makanan Olahan (kalengan, sosis, ham dan dendeng)\n
+        10. Saus Tomat\n
+        11. Makanan dan Minuman yang mengandung Kafein\n
+        12. Makanan Berlemak\n
+        13. Kurangi makanan dan minuman yang mengandung gula
+    </string>
+    <string name="kolestrolasamlambung">
+        1. Daging kambing, kuda dan sapi\n
+        2. jeroan (Limpa, Hati, paru, ginjal dan usus)\n
+        3. ekstrak daging (abon)\n
+        4. seafod (ikan sotong, ikan sarden, udang, cumi-cumi, kepiting, ikan teri dan tiram)\n
+        5. Kacang-kacangan (kedelai, kacang hijau, melinjo, dan kacang tanah)\n
+        6. makanan berlemak\n
+        7. keju\n
+        8. es krim\n
+        9. Minuman bersoda\n
+        10. Buah dan Sayuran : kedondong, pisang ambon, nangka, sawi dan kol.\n
+        11. Makanan berlemak\n
+        12. Makanan pedas\n
+    </string>
+    <string name="hipertensiasamlambung">
+        1. Makanan Olahan (kalengan, sosis, ham dan dendeng)\n
+        2. Saus Tomat\n
+        3. Makanan dan Minuman yang mengandung Kafein\n
+        4. Makanan Berlemak\n
+        5. Kurangi makanan dan minuman yang mengandung gula\n
+        6. Minuman bersoda\n
+        7. Buah dan Sayuran : kedondong, pisang ambon, nangka, sawi dan kol.\n
+        8. Makanan pedas
+    </string>
+    <string name="maagdiabeteskolestrol">
+        1. konsumsi gorengan yang terlalu banyak\n
+        2. susu olahan yang tinggi lemak (Mentega dengan kadar lemak tinggi)\n
+        3. Cokelat\n
+        4. Produk hasil fermentasi (tape dan oncom)\n
+        5. Buah-buahan yang banyak mengandung gas\n
+        6. Minuman bersoda\n
+        7. Kurangi meminum kopi dan teh\n
+        8. Makanan dengan cara digoreng\n
+        9. Makanan dan minuman berkafein\n
+        10. minuman beralkohol\n
+        11. Buah bercita rasa manis\n
+        12. Nasi dan umbi-umbian\n
+        13. Roti\n
+        14. Pasta Putih\n
+        15. Daging kambing, kuda dan sapi\n
+        16. jeroan (Limpa, Hati, paru, ginjal dan usus)\n
+        17. ekstrak daging (abon)\n
+        18. seafod (ikan sotong, ikan sarden, udang, cumi-cumi, kepiting, ikan teri dan tiram)\n
+        19. Kacang-kacangan (kedelai, kacang hijau, melinjo, dan kacang tanah)\n
+        20. makanan berlemak\n
+        21. keju\n
+        22. es krim
+    </string>
+    <string name="hipertensimaagdiabetes">
+        1. Makanan Olahan (kalengan, sosis, ham dan dendeng)\n
+        2. Saus Tomat\n
+        3. Makanan dan Minuman yang mengandung Kafein\n
+        4. Makanan Berlemak\n
+        5. Kurangi makanan dan minuman yang mengandung gula\n
+        6. konsumsi gorengan yang terlalu banyak\n
+        7. susu olahan yang tinggi lemak (Mentega dengan kadar lemak tinggi)\n
+        8. Cokelat\n
+        9. Produk hasil fermentasi (tape dan oncom)\n
+        10. Buah-buahan yang banyak mengandung gas\n
+        11. Minuman bersoda\n
+        12. Kurangi meminum kopi dan teh\n
+        13. Makanan dengan cara digoreng\n
+        14. Makanan dan minuman berkafein\n
+        15. minuman beralkohol\n
+        16. Buah bercita rasa manis\n
+        17. Nasi dan umbi-umbian\n
+        18. Roti\n
+        19. Pasta Putih\n
+    </string>
+
+    <string name="hipertensimaagasamlambung">
+        1. Makanan Olahan (kalengan, sosis, ham dan dendeng)\n
+        2. Saus Tomat\n
+        3. Makanan dan Minuman yang mengandung Kafein\n
+        4. Makanan Berlemak\n
+        5. Kurangi makanan dan minuman yang mengandung gula\n
+        6. konsumsi gorengan yang terlalu banyak\n
+        7. susu olahan yang tinggi lemak (Mentega dengan kadar lemak tinggi)\n
+        8. Cokelat\n
+        9. Produk hasil fermentasi (tape dan oncom)\n
+        10. Buah-buahan yang banyak mengandung gas\n
+        11. Minuman bersoda\n
+        12. Kurangi meminum kopi dan teh\n
+        13. Minuman bersoda\n
+        14. Buah dan Sayuran : kedondong, pisang ambon, nangka, sawi dan kol.\n
+        15. Makanan pedas
+    </string>
+    <string name="hipertensimaagkolestrol">
+        1. Makanan Olahan (kalengan, sosis, ham dan dendeng)\n
+        2. Saus Tomat\n
+        3. Makanan dan Minuman yang mengandung Kafein\n
+        4. Makanan Berlemak\n
+        5. Kurangi makanan dan minuman yang mengandung gula\n
+        6. konsumsi gorengan yang terlalu banyak\n
+        7. susu olahan yang tinggi lemak (Mentega dengan kadar lemak tinggi)\n
+        8. Cokelat\n
+        9. Produk hasil fermentasi (tape dan oncom)\n
+        10. Buah-buahan yang banyak mengandung gas\n
+        11. Minuman bersoda\n
+        12. Kurangi meminum kopi dan teh\n
+        13. Daging kambing, kuda dan sapi\n
+        14. jeroan (Limpa, Hati, paru, ginjal dan usus)\n
+        15. ekstrak daging (abon)\n
+        16. seafod (ikan sotong, ikan sarden, udang, cumi-cumi, kepiting, ikan teri dan tiram)\n
+        17. Kacang-kacangan (kedelai, kacang hijau, melinjo, dan kacang tanah)\n
+        18. keju\n
+        19. es krim
+    </string>
+
+    <!-- kategori kurus -->
+    <string name="kurus">Under Weight/Kurus – Sebaiknya mulai menambah berat badan dan mengkonsumsi makanan berkarbohidrat di imbangi dengan olah raga</string>
+    <string name="kurus_makanandisarankan">Perbanyak Mengkonsumsi makanan berkarbonhidrat dan tinggi protein, \n Minuman suplemen yang disarankan : susu beruang, Ovaltine, Kianpi</string>
+    <string name="kurus_menusarapan1">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ayam Goreng \n
+        3. Telur Rebus \n
+        4. Jus Alpukat
+    </string>
+    <string name="kurus_menusiang1">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ikan Goreng (Salmon / Lele) \n
+        3. Sup Ayam \n
+        4. Buah Pisang
+    </string>
+    <string name="kurus_menumalam1">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ikan Goreng (Salmon / Lele) \n
+        3. Sup Ayam \n
+        4. Sayur Bayam \n
+        5. Buah Pisang dan pepaya
+    </string>
+    <string name="kurus_menusarapan2">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Telur Goreng \n
+        3. Sup Ayam \n
+        4. Buah Pisang
+    </string>
+    <string name="kurus_menusiang2">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ayam Goreng \n
+        3. Telur Rebus \n
+        4. Jus Alpukat
+    </string>
+    <string name="kurus_menumalam2">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ikan Goreng (Salmon / Lele) \n
+        3. Sup Ayam \n
+        4. Sayur Bayam \n
+        5. Buah Pisang dan pepaya
+    </string>
+    <string name="kurus_menusarapan3">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Telur Goreng \n
+        3. Susu Putih \n
+        4. Buah Pisang dan pepaya
+    </string>
+    <string name="kurus_menusiang3">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Kari Ayam \n
+        3. Telur Rebus \n
+        4. Jus Alpukat
+    </string>
+    <string name="kurus_menumalam3">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ikan Goreng (Salmon / Lele) \n
+        3. Sup Ayam \n
+        4. Sayur Bayam \n
+        5. Buah Pisang dan pepaya
+    </string>
+    <string name="kurus_menusarapan4">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Telur Goreng \n
+        3. Susu Putih \n
+        4. Buah Pisang dan pepaya
+    </string>
+    <string name="kurus_menusiang4">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ikan Goreng (Salmon / Lele) \n
+        3. Sup Ayam \n
+        4. Sayur Bayam \n
+        5. Buah Pisang dan pepaya
+    </string>
+    <string name="kurus_menumalam4">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Kari Ayam \n
+        3. Telur Rebus \n
+        4. Jus Alpukat
+    </string>
+    <string name="kurus_menusarapan5">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Telur Goreng \n
+        3. Sup Ayam \n
+        4. Buah Pisang
+    </string>
+    <string name="kurus_menusiang5">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ayam Goreng \n
+        3. Telur Rebus \n
+        4. Jus Alpukat
+    </string>
+    <string name="kurus_menumalam5">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ikan Goreng (Salmon / Lele) \n
+        3. Sup Ayam \n
+        4. Sayur Bayam \n
+        5. Buah Pisang dan pepaya
+    </string>
+    <string name="kurus_maag_makanan">
+        Makanan Disarankan : \n
+        1. Daging Merah \n
+        2. Rendang \n
+        3. Daging Ayam \n
+        4. Ikan Salmon \n
+        \n
+        Buah-Buahan Disarankan : \n
+        1. Pisang \n
+        2. Mangga \n
+        3. Pepaya \n
+        4. Alpukat \n
+        \n
+        Suplemen Disarankan : \n
+        1. Ovaltine + Milo \n
+        2. Kianpi \n
+        3. Appeton Weight Gain
+    </string>
+    <string name="kurus_kolestrolmakanan">
+        Makanan Disarankan : \n
+        1. Daging Merah Kecuali (Daging Kambing, Sapi, dan Kuda ) \n
+        2. Daging Ayam \n
+        3. Ikan Salmon \n
+        \n
+        Buah-Buahan Disarankan : \n
+        1. Pisang \n
+        2. Mangga \n
+        3. Pepaya \n
+        4. Alpukat \n
+        \n
+        Suplemen Disarankan : \n
+
+        1. Ovaltine + Milo \n
+        2. Kianpi \n
+        3. Appeton Weight Gain
+    </string>
+    <string name="kurus_hipertensimakanan">
+        Makanan Disarankan : \n
+        1. Daging Ayam \n
+        2. Ikan Salmon \n
+        \n
+        Buah-Buahan Disarankan : \n
+        1. Pisang \n
+        2. Mangga \n
+        3. Pepaya \n
+        4. Alpukat \n
+        \n
+        Suplemen Disarankan : \n
+
+        1. Ovaltine + Milo \n
+        2. Kianpi \n
+        3. Appeton Weight Gain
+    </string>
+    <string name="kurus_diabetesmakanan">
+        Makanan Disarankan : \n
+        1. Daging Merah \n
+        2. Rendang \n
+        3. Daging Ayam \n
+        4. Ikan Salmon \n
+        \n
+        Buah-Buahan Disarankan : \n
+        1. Pisang \n
+        2. Mangga \n
+        3. Pepaya \n
+        4. Alpukat \n
+        \n
+        Suplemen Disarankan : \n
+
+        1. Ovaltine + Milo \n
+        2. Kianpi \n
+        3. Appeton Weight Gain
+    </string>
+    <string name="kurus_asamlambungmakanan">
+        Makanan Disarankan : \n
+        1. Daging Ayam \n
+        2. Ikan Salmon \n
+        \n
+        Buah-Buahan Disarankan : \n
+        1. Pisang \n
+        2. Mangga \n
+        3. Pepaya \n
+        4. Alpukat \n
+        \n
+        Suplemen Disarankan : \n
+        1. Ovaltine + Milo \n
+        2. Kianpi \n
+        3. Appeton Weight Gain
+    </string>
+
+    <!-- golongan darah  -->
+    <string name="golA_olahraga">
+        1. Fitnes \n
+        2. Yoga\n
+        3. Senam\n
+        4. Tai Chi\n
+        5. Berjalan Cepat\n
+        6.Aktivitas Outdor\n
+        Minimal 30 Menit/Hari
+    </string>
+    <string name="golA_makanan">
+        Makanan Disarankan :
+        1. Daging Merah \n
+        2. Rendang \n
+        3. Daging Ayam \n
+        4. Ikan Salmon \n
+        \n
+        Buah-Buahan Disarankan : \n
+        1. Pisang \n
+        2. Mangga \n
+        3. Pepaya \n
+        4. Alpukat \n
+        \n
+        Suplemen Disarankan : \n
+
+        1. Ovaltine + Milo \n
+        2. Kianpi \n
+        3. Appeton Weight Gain
+    </string>
+    <string name="golA_olahragaperempuan">
+        1. Fitnes \n
+        2. Yoga\n
+        3. Senam\n
+        4. Tai Chi\n
+        5. Berjalan Cepat\n
+        6. Aktivitas Outdor\n
+        Minimal 30 Menit/Hari
+    </string>
+    <string name="golA_olahragalaki">
+        1. Fitnes\n
+        2. Senam\n
+        3. Tai Chi\n
+        4. futsall \n
+        Minimal 30 menit/hari
+    </string>
+    <string name="golB_makanan">
+        Makanan Disarankan : \n
+        1. Daging Merah \n
+        2. Rendang \n
+        3. Daging Ayam \n
+        4. Ikan Salmon \n
+        \n
+        Buah-Buahan Disarankan : \n
+        1. Pisang \n
+        2. Mangga \n
+        3. Pepaya \n
+        4. Alpukat \n
+        \n
+        Suplemen Disarankan : \n
+        1. Ovaltine + Milo \n
+        2. Kianpi \n
+        3. Appeton Weight Gain
+    </string>
+    <string name="golB_olahragaperempuan">
+        1.dance\n
+        2. balet\n
+        3. Senam \n
+        Minimal 30 Menit/Hari
+    </string>
+    <string name="golB_olahragalaki">
+        1.Senam\n
+        2. futsall / Sepak Bola \n
+        3. Bulu Tangkis\n
+        Minimal 30 menit/hari
+    </string>
+    <string name="golO_makanan">
+        Makanan Disarankan : \n
+        1. Daging Merah \n
+        2. Rendang \n
+        3. Daging Ayam \n
+        4. Ikan Salmon \n
+        \n
+        Buah-Buahan Disarankan : \n
+        1. Pisang \n
+        2. Mangga \n
+        3. Pepaya \n
+        4. Alpukat \n
+        \n
+        Suplemen Disarankan : \n
+        1. Ovaltine + Milo \n
+        2. Kianpi \n
+        3. Appeton Weight Gain
+    </string>
+    <string name="golO_olahragaperempuan">
+        1. jogging\n
+        2. bersepeda\n
+        3. berenang \n
+        Minimal 30 menit/hari
+    </string>
+    <string name="golO_olahragalaki">
+        1. jogging\n
+        2. bersepeda\n
+        3. berenang \n
+        Minimal 30 menit/hari
+    </string>
+    <string name="golAB_makanan">
+        Makanan Disarankan : \n
+        1. Daging Merah \n
+        2. Rendang \n
+        3. Daging Ayam \n
+        4. Ikan Salmon \n
+        \n
+        Buah-Buahan Disarankan : \n
+        1. Pisang \n
+        2. Mangga \n
+        3. Pepaya \n
+        4. Alpukat \n
+        \n
+        Suplemen Disarankan : \n
+        1. Ovaltine + Milo \n
+        2. Kianpi \n
+        3. Appeton Weight Gain
+    </string>
+    <string name="golAB_olahragaperempuan">
+        1. jogging\n
+        2. bersepeda\n
+        3. berenang \n
+        Minimal 30 menit/hari
+    </string>
+    <string name="golAB_olahragalaki">
+        1. jogging\n
+        2. bersepeda\n
+        3. bola \n
+        4. Berenang \n
+        Minimal 30 menit/hari
+    </string>
+
+    <string name="normal_kategori">
+        Normal Weight/Normal – Bagus, berat badan anda termasuk kategori ideal
+    </string>
+    <string name="normal_olahragadisarankan">Pertahankan Olahraga Teratur</string>
+    <string name="normal_makanandisarankan">Anda Tidak di sarankan melakukan diet, Pertahankan Pola Makan anda</string>
+    <string name="gemuk_kategori">Over Weight/Kegemukan – anda sudah masuk kategori gemuk. sebaiknya hindari makanan berlemak dan mulailah meningkatkan olahraga seminggu minimal 2 kali</string>
+    <string name="kategoriumur">Kategori Usia Tidak Disarankan</string>
+
+    <!-- kategori gemuk -->
+    <string name="gemuk_golA">
+        Makanan Disarankan : \n
+        1. Daging Merah \n
+        2. Rendang \n
+        3. Daging Ayam \n
+        4. Ikan Salmon \n
+    </string>
+    <string name="golA_gemuk_sarapan1">
+        1. satu buah pisang \n
+        2. segelas susu atau kopi dengan pemanis sakarin \n
+        3. 2 layer roti tawar
+    </string>
+    <string name="golA_gemuk_siang1">
+        1. satu mangkuk sup\n
+        2. segelas susu skim atau 150 gram keju cottage \n
+        3. 2 buah pisang
+    </string>
+    <string name="golA_gemuk_malam1">
+        1. Anda dapat mengkonsumsi buah pisang dengan jumlah banyak yang anda inginkan hingga kenyang\n
+        2. atau pisang yang dicampur dengan segelas susu \n
+        3. chamomile atau teh pennyroyal
+    </string>
+    <string name="golA_gemuk_sarapan2">
+        1. 2 Layer Roti Gandum \n
+        2. 1 Telur Goreng \n
+        3. satu Buah Pisang
+    </string>
+    <string name="golA_gemuk_siang2">
+        1. Nasi Putih -/+ 2 sendok makan \n
+        2. satu Telur Rebus \n
+        3. kurma
+    </string>
+    <string name="golA_gemuk_malam2">
+        1. Anda dapat mengkonsumsi buah pisang dengan jumlah banyak yang anda inginkan hingga kenyang\n
+        2. atau pisang yang dicampur dengan segelas susu \n
+        3. chamomile atau teh pennyroyal
+    </string>
+    <string name="golA_gemuk_sarapan3">
+        1. Nasi Putih -/+ 3 Sendok Makan \n
+        2. 1 Paha Ayam Goreng \n
+        3. kurma
+    </string>
+    <string name="golA_gemuk_siang3">
+        1. 2 Layer Roti Gandum \n
+        2. 1 Telur Rebus \n
+        3. satu Buah Pisang
+    </string>
+    <string name="golA_gemuk_malam3">
+        1. Roti putih 1 iris \n
+        2. Selada,tomat,timun dll 1/2 mangkok \n
+        3.  telur rebus
+    </string>
+    <string name="golA_gemuk_sarapan4">
+         1. Nasi Putih -/+ 2 sendok makan \n
+        2. satu Telur Goreng \n
+        3. kurma
+    </string>
+    <string name="golA_gemuk_siang4">
+        1. 2 Layer Roti Gandum \n
+        2. 1 Telur Rebus \n
+        3. satu Buah Pisang
+    </string>
+    <string name="golA_gemuk_malam4">
+        1. Anda dapat mengkonsumsi buah pisang dengan jumlah banyak yang anda inginkan hingga kenyang\n
+        2. atau pisang yang dicampur dengan segelas susu \n
+        3. chamomile atau teh pennyroyal
+    </string>
+    <string name="golA_gemuk_sarapan5">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ikan Goreng Tuna \n
+        3. sayur \n
+        4. Buah Kurma
+    </string>
+    <string name="golA_gemuk_siang5">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ayam Goreng \n
+        3. Telur Rebus \n
+        4. Jus Alpukat
+    </string>
+    <string name="golA_gemuk_malam5">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ikan Goreng (Salmon / Lele) \n
+        3. Sup Ayam \n
+        4. Sayur Bayam \n
+        5. Buah Pisang dan pepaya
+    </string>
+    <string name="gemuk_golB">
+        Makanan dan Sayuran Yang Disarankan : \n
+        1. aneka ikan laut \n
+        2. olahan susu seperti keju dan yoghurt\n
+        3. brokoli, wortel, dan terong
+    </string>
+    <string name="golB_gemuk_sarapan1">
+        1. satu buah pisang \n
+        2. segelas susu atau kopi dengan pemanis sakarin \n
+        3. 2 layer roti tawar
+    </string>
+    <string name="golB_gemuk_siang1">
+        1. satu mangkuk sup\n
+        2. segelas susu skim atau 150 gram keju cottage \n
+        3. 2 buah pisang
+    </string>
+    <string name="golB_gemuk_malam1">
+        1. Anda dapat mengkonsumsi buah pisang dengan jumlah banyak yang anda inginkan hingga kenyang\n
+        2. atau pisang yang dicampur dengan segelas susu \n
+        3. chamomile atau teh pennyroyal
+    </string>
+    <string name="golB_gemuk_sarapan2">
+        1. 2 Layer Roti Gandum \n
+        2. 1 Telur Goreng \n
+        3. satu Buah Pisang
+    </string>
+    <string name="golB_gemuk_siang2">
+        1. Nasi Putih -/+ 2 sendok makan \n
+        2. Ikan Goreng (Seafod) \n
+        3. kurma
+    </string>
+    <string name="golB_gemuk_malam2">
+        1. Roti putih 1 iris \n
+        2. Selada,tomat,timun dll 1/2 mangkok \n
+        3. Balado Terong
+    </string>
+    <string name="golB_gemuk_sarapan3">
+        1. Nasi Putih -/+ 3 Sendok Makan \n
+        2. Ikan Goreng/Rebus (Seafod) \n
+        3. kurma
+    </string>
+    <string name="golB_gemuk_siang3">
+        1. 2 Layer Roti Gandum \n
+        2. 1 Telur Rebus \n
+        3. satu Buah Pisang
+    </string>
+    <string name="golB_gemuk_malam3">
+        1. Roti putih 1 iris \n
+        2. Selada,tomat,timun dll 1/2 mangkok \n
+        3.  telur rebus
+    </string>
+    <string name="golB_gemuk_sarapan4">
+        1. Nasi Putih -/+ 2 sendok makan \n
+        2. satu Telur Goreng \n
+        3. Jus Wartel
+    </string>
+    <string name="golB_gemuk_siang4">
+        1. 2 Layer Roti Gandum \n
+        2. 1 Telur Rebus \n
+        3. satu Buah Pisang
+    </string>
+    <string name="golB_gemuk_malam4">
+        1. Anda dapat mengkonsumsi buah pisang dengan jumlah banyak yang anda inginkan hingga kenyang\n
+        2. atau pisang yang dicampur dengan segelas susu \n
+        3. chamomile atau teh pennyroyal
+    </string>
+    <string name="golB_gemuk_sarapan5">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ikan Goreng Tuna \n
+        3. sayur \n
+        4. Balado Terong
+    </string>
+    <string name="golB_gemuk_siang5">
+        1. Yougart \n
+        2. Telur Rebus \n
+        3. Jus Wartel
+    </string>
+    <string name="golB_gemuk_malam5">
+        1. Nasi Putih -/+ 4 sendok makan \n
+        2. Ikan Goreng/Rebus (Seafod) \n
+        3. Sup Ayam \n
+        4. Sayur Bayam \n
+        5. Buah Pisang dan pepaya
+    </string>
+
+    <string name="gemuk_golO">
+        Makanan dan Sayuuran Yang Disarankan :\n
+        1. sayuran hijau \n
+        2. makanan dengan kadar protein hewani yang tinggi (Ikan Salmon dan Ikan Lele)\n
+        3. seafood. \n
+        Makanan Yang Dihindari : \n
+        1. sayuran seperti misalnya terong, kentang, jamur, dan tauge atau jenis sayuran yang mengandung banyak lektin.
+    </string>
+    <string name="golO_sarapan1">
+        1. satu buah pisang \n
+        2. segelas susu atau kopi dengan pemanis sakarin \n
+        3. 2 layer roti tawar
+    </string>
+    <string name="golO_siang1">
+        1. satu mangkuk sup\n
+        2. segelas susu skim atau 150 gram keju cottage \n
+        3. 2 buah pisang
+    </string>
+    <string name="golO_malam1">
+        1. Anda dapat mengkonsumsi buah pisang dengan jumlah banyak yang anda inginkan hingga kenyang\n
+        2. atau pisang yang dicampur dengan segelas susu \n
+        3. chamomile atau teh pennyroyal
+    </string>
+    <string name="golO_sarapan2">
+        1. 2 Layer Roti Gandum \n
+        2. 1 Telur Goreng \n
+        3. Jus Alpukat
+    </string>
+    <string name="golO_siang2">
+        1. Roti putih 1 iris \n
+        2. Selada,tomat,timun dll 1/2 mangkok \n
+    </string>
+    <string name="golO_malam2">
+        1. Nasi Putih -/+ 2 sendok makan \n
+        2. Ikan Goreng (Lele dan Salmon) \n
+        3. Sayur Bayam
+    </string>
+    <string name="golO_sarapan3">
+        1. Nasi Putih -/+ 3 Sendok Makan \n
+        2. Ikan Goreng/Rebus (Lele) \n
+        3. Jus Brokoli
+    </string>
+    <string name="golO_siang3">
+        1. 2 Layer Roti Gandum \n
+        2. 1 Telur Rebus \n
+        3. Kacang-Kacangan
+    </string>
+    <string name="golO_malam3">
+        1. Roti putih 1 iris \n
+        2. Selada,tomat,timun dll 1/2 mangkok \n
+        3.  telur rebus
+    </string>
+    <string name="golO_sarapan4">
+        1. Nasi Putih -/+ 2 sendok makan \n
+        2. satu Telur Goreng \n
+        3. Jus Brokoli
+    </string>
+    <string name="golO_siang4">
+        1. 2 Layer Roti Gandum \n
+        2. 1 Telur Rebus \n
+        3. Kacang-kacangan
+    </string>
+    <string name="golO_malam4">
+        1. Anda dapat mengkonsumsi buah pisang dengan jumlah banyak yang anda inginkan hingga kenyang\n
+        2. atau pisang yang dicampur dengan segelas susu \n
+        3. chamomile atau teh pennyroyal
+    </string>
+    <string name="golO_sarapan5">
+        1. Nasi Putih -/+ 3 sendok makan \n
+        2. Ikan Goreng Tuna \n
+        3. sayur Bayam \n
+        4. Balado Terong
+    </string>
+    <string name="golO_siang5">
+        1. Yougart \n
+        2. Telur Rebus \n
+        3. Jus Brokoli
+    </string>
+    <string name="golO_malam5">
+        1. Nasi Putih -/+ 2 sendok makan \n
+        2. Ikan Goreng/Rebus (Lele/Tuna) \n
+        3. Sayur Bayam \n
+        4. Buah Pisang dan pepaya
+    </string>
+    <string name="gemuk_golAB">
+        Makanan dan Sayuuran Yang Disarankan : \n
+        1. perbanyak mengkonsumsi susu kambing \n
+        2. ikan tuna\n
+        3. krim asam rendah kalori \n
+        4. buah anggur merah. \n
+        Makanan dan Minuman Yang Dihindari : telur bebek, kepiting, buah pisang, dan air soda
+    </string>
+    <string name="golAB_sarapan1">
+        1. satu buah pisang \n
+        2. segelas susu atau kopi dengan pemanis sakarin \n
+        3. 2 layer roti tawar \n
+        4. susu Kambing
+    </string>
+    <string name="golAB_siang1">
+        1. satu mangkuk sup\n
+        2. segelas susu skim atau 150 gram keju cottage \n
+        3. anggur merah
+    </string>
+    <string name="golAB_malam1">
+        1. Anda dapat mengkonsumsi buah pisang dengan jumlah banyak yang anda inginkan hingga kenyang\n
+        2. atau pisang yang dicampur dengan segelas susu \n
+        3. chamomile atau teh pennyroyal
+    </string>
+    <string name="golAB_sarapan2">
+        1. 2 Layer Roti Gandum \n
+        2. 1 Telur Goreng \n
+        3. Angggur Merah
+    </string>
+    <string name="golAB_siang2">
+        1. Roti putih 1 iris \n
+        2. Selada,tomat,timun dll 1/2 mangkok \n
+    </string>
+    <string name="golAB_malam2">
+        1. Nasi Putih -/+ 2 sendok makan \n
+        2. Ikan Goreng (tuna) \n
+        3. Sayur Bayam
+    </string>
+    <string name="golAB_sarapan3">
+        1. Nasi Putih -/+ 3 Sendok Makan \n
+        2. Ikan Goreng/Rebus (Lele) \n
+        3. Jus Brokoli
+    </string>
+    <string name="golAB_siang3">
+        1. 2 Layer Roti Gandum \n
+        2. 1 Telur Rebus \n
+        3. Kacang-Kacangan
+    </string>
+    <string name="golAB_malam3">
+        1. Roti putih 1 iris \n
+        2. Selada,tomat,timun dll 1/2 mangkok \n
+        3.  telur rebus
+    </string>
+    <string name="golAB_sarapan4">
+        1. Nasi Putih -/+ 2 sendok makan \n
+        2. satu Telur Goreng \n
+        3. Jus Brokoli
+    </string>
+    <string name="golAB_siang4">
+        1. 2 Layer Roti Gandum \n
+        2. 1 Telur Rebus \n
+        3. Kacang-kacangan
+    </string>
+    <string name="golAB_malam4">
+        1. Anda dapat mengkonsumsi buah pisang dengan jumlah banyak yang anda inginkan hingga kenyang\n
+        2. atau pisang yang dicampur dengan segelas susu \n
+        3. chamomile atau teh pennyroyal
+    </string>
+    <string name="golAB_sarapan5">
+        1. Nasi Putih -/+ 3 sendok makan \n
+        2. Ikan Goreng Tuna \n
+        3. sayur Bayam \n
+        4. anggur merah
+    </string>
+    <string name="golAB_siang5">
+        1. Yougart \n
+        2. Telur Rebus \n
+        3. Susu Kambing
+    </string>
+    <string name="golAB_malam5">
+        1. Nasi Putih -/+ 2 sendok makan \n
+        2. Ikan Goreng/Rebus (Lele/Tuna) \n
+        3. Sayur Bayam \n
+        4. Buah Anggur
+    </string>
+    <string name="overweight">Obesitas – Sebaiknya segera membuat program menurunkan berat badan karena anda termasuk kategori obesitas/ terlalu gemuk dan tidak baik bagi kesehatan</string>
+
+    <string name="app_name">Diet Sehat</string>
     <string name="action_settings">Settings</string>
     <string name="action_search">Search</string>
     <string name="drawer_open">Open</string>
@@ -24,10 +957,11 @@
     <string name="golAB">AB</string>
     <string name="golO">O</string>
 
-    <string name="nav_item_home">Home</string>
+    <string name="nav_item_home">Diagnosa</string>
     <string name="nav_item_metode_diet">Metode Diet</string>
     <string name="nav_item_tips_diet">Kalkulator BMI</string>
-    <string name="nav_item_about">About</string>
+    <string name="nav_item_diagnosa">Hasil Diagnosa</string>
+    <string name="nav_item_about">Tentang</string>
 
     <string name="edt_berat">Berat Badan</string>
     <string name="edt_usia">Usia</string>
@@ -38,6 +972,7 @@
     <!-- navigation drawer item labels  -->
     <string-array name="nav_drawer_labels">
         <item>@string/nav_item_home</item>
+        <item>@string/nav_item_diagnosa</item>
         <item>@string/nav_item_metode_diet</item>
         <item>@string/nav_item_tips_diet</item>
         <item>@string/nav_item_about</item>
@@ -56,18 +991,29 @@
     terhadap makan dan minuman</string>
 
 
-    <string name="tentang">Aplikasi Diet Sehat ini merupakan aplikasi yang dibuat dengan tujuan penyelesain program studi S1
-    dengan judul Aplikasi sitem pakar Diet berdasarkan genotip berbasis android, latar belakang aplikasi ini dibuat
-    karena angka obesitas di INDONESIA yang terus meningkat dan kurangnya pengetahuan masyarakat tentang diet sehat.</string>
+    <string name="tentang">Aplikasi Sistem Pakar Diet Berdasarkan Genotip
+        merupakan salah satu alternatif bagi masyarakat untuk memulai terapi diet.
+        Genotip yang dimiliki tiap-tiap indivudu sangat berkaitan juga dengan kesehatan, vitalitas, dan berat badan optimal.
+        Individu yang mengalami masalah berat badan ataupun memulai pola hidup sehat dapat menggunakan aplikasi ini dalam menentukan
+        pola makan, olahraga dan suplemen yang benar sesuai dengan genotipnya.
+        Informasi yang dihasilkan kepada pengguna adalah profil metabolisme,
+        saran konsumsi asupan sehat, saran olahraga dan suplemen sesuai dengan genotip.
+        Dengan menerapkan saran diet tersebut diharapkan tubuh akan mampu mengendalikan proses metabolism untuk meraih kesehatan dan vitalitas.</string>
 
+    <string name="ilham">
+        ilham sabar
+    </string>
 
     <string name="title_about">About</string>
     <string name="title_tips_diet">Tips Diet</string>
     <string name="title_metode_diet">Metode Diet</string>
-    <string name="title_home">Home</string>
-
+    <string name="title_home">Diagnosa</string>
+    <string name="title_diagnosa">Hasil Diagnosa</string>
     <string name="ikutimetode">Ikuti Metode</string>
+
+    <string name="cekdiet">Cek BB Sekarang</string>
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

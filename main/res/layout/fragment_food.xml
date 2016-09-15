@@ -153,6 +153,7 @@
         android:layout_marginRight="20dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        app:fabSize="normal" />
+        app:fabSize="normal"
+        android:visibility="gone"/>
 
 </RelativeLayout>

@@ -377,6 +377,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/followingplanMayo"
                 android:text="IKUTI METODE"
+                android:visibility="gone"
                 />
     </LinearLayout>
 </ScrollView>
@@ -389,5 +390,6 @@
         android:layout_marginRight="20dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        app:fabSize="normal" />
+        app:fabSize="normal"
+        android:visibility="gone"/>
 </RelativeLayout>

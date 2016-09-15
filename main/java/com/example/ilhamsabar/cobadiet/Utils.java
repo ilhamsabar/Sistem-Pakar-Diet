@@ -1,40 +1,49 @@
 package com.example.ilhamsabar.cobadiet;
 
+import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.support.v4.app.NotificationCompat;
 
 /**
- * Created by ilham sabar on 11/4/2015.
+ * Created by ilham sabar on 2/23/2016.
  */
-public class AlaramReceiver extends BroadcastReceiver {
+public class Utils {
+
     public static final int NOTIFICATION_ID = 1284885;
-    MediaPlayer notif;
+    public static NotificationManager mManager;
+    public static Notification myNotication;
 
-    @Override
-    public void onReceive(Context context, Intent intent) {
 
-        buatnotif(context, "Menu diet Hari ini", "Sarapan", "Pesan");
+    public static void generateNotification(Context context){
 
-    }
-
-    public void buatnotif( Context context, String msg, String msgText, String msgAlert){
-
-//        NotificationCompat.Builder buildeer = new NotificationCompat.Builder(getActivity().getApplicationContext());
-//        buildeer.setSmallIcon(R.drawable.icon);
-//        buildeer.setSubText("Tap to view documentation about notifications.");
+//        mManager = (NotificationManager) context.getSystemService(context.NOTIFICATION_SERVICE);
+//        Intent intent1 = new Intent(context,Utils.class);
+//        PendingIntent pendingIntent = PendingIntent.getActivity(context,0, intent1, PendingIntent.FLAG_UPDATE_CURRENT);
+//
+//
+//        Notification.Builder builder = new Notification.Builder(context);
+//        intent1.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//
+//        builder.setAutoCancel(true);
+//        builder.setTicker("Notifikasi Imunisasi");
+//        builder.setContentTitle("Notifikasi Imunisasi");
+//        builder.setSmallIcon(R.mipmap.icon);
+//        builder.setContentIntent(pendingIntent);
+//        builder.setOngoing(true);
+//        //builder.setSubText("Bunda, hari ini waktunya Imunisasi !");   //API level 16
+//        builder.setNumber(1);
+//        builder.build();
+//
+//        myNotication = builder.getNotification();
+//        mManager.notify(11, myNotication);
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context);
         builder.setSmallIcon(R.drawable.icon);
         Intent intent = new Intent(context, MainActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
         builder.setContentIntent(pendingIntent);
-
-        notif = MediaPlayer.create(context, R.drawable.alarm2);
-        notif.start();
 
         builder.setSmallIcon(R.drawable.icon);
         builder.setContentTitle("Diet Sehat");
@@ -48,14 +57,11 @@ public class AlaramReceiver extends BroadcastReceiver {
         PendingIntent notifIntent = PendingIntent.getActivity(context, 0, new Intent(context, MainActivity.class),0);
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
                 .setSmallIcon(R.drawable.icon)
-                .setContentTitle(msg)
-                .setTicker(msgAlert)
-                .setContentText(msgText);
+                .setContentTitle("Diet Sehat")
+                .setContentText("Waktunya Diet");
         mBuilder.setContentIntent(notifIntent);
         mBuilder.setDefaults(NotificationCompat.DEFAULT_SOUND);
         NotificationManager mNotificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         mNotificationManager.notify(1, mBuilder.build());
-
     }
 }
-

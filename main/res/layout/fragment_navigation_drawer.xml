@@ -7,28 +7,28 @@
     <RelativeLayout
         android:id="@+id/nav_header_container"
         android:layout_width="match_parent"
-        android:layout_height="140dp"
+        android:layout_height="150dp"
         android:layout_alignParentTop="true"
         android:background="@color/colorPrimary">
-
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:src="@drawable/icon"
+            android:src="@drawable/diet1"
             android:scaleType="fitCenter"
             android:layout_centerInParent="true"
             android:id="@+id/imageView" />
         <TextView
             android:layout_width="fill_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:scaleType="fitCenter"
             android:text="Diet Sehat"
             android:gravity="center_horizontal"
             android:textStyle="bold"
             android:textSize="20dp"
-            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/imageView" />
+            android:layout_below="@+id/imageView"
+            android:id="@+id/judul"/>
+
     </RelativeLayout>
 
 

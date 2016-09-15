@@ -24,7 +24,7 @@ import java.util.List;
 public class MetodeDietFragment extends Fragment {
     protected Cursor cursor;
 
-    String[] diet = new String[] { "Diet Mayo","Diet OCD", "Diet Atkins", "Diet Food Combining", "Diet Golongan Darah", "Diet Paleo"};
+    String[] diet = new String[] { "Diet Mayo","Diet OCD", "Diet Atkins", "Diet Food Combining", "Diet Golongan Darah"};
 
     public MetodeDietFragment() {
         // Required empty public constructor

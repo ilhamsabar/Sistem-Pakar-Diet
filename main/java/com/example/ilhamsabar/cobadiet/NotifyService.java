@@ -5,6 +5,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
@@ -16,6 +17,8 @@ public class NotifyService extends Service {
     /**
      * Class for clients to access
      */
+
+    MediaPlayer notif;
     public class ServiceBinder extends Binder {
         NotifyService getService() {
             return NotifyService.this;
@@ -60,13 +63,16 @@ public class NotifyService extends Service {
      */
     private void showNotification() {
         // This is the 'title' of the notification
-        CharSequence title = "My Diet";
+        CharSequence title = "Diet Sehat";
         // This is the icon to use on the notification
         int icon = R.drawable.icon;
         // This is the scrolling text of the notification
-        CharSequence text = "Waktunya Diet";
+        CharSequence text = "Cek Jadwal Makan Anda Sekarang";
         // What time to show on the notification
         long time = System.currentTimeMillis();
+
+//        notif = MediaPlayer.create(getApplicationContext(), R.drawable.alarm2);
+//        notif.start();
 
         Notification notification = new Notification(icon, text, time);
 
@@ -75,14 +81,14 @@ public class NotifyService extends Service {
 
         // Set the info for the views that show in the notification panel.
         notification.setLatestEventInfo(this, title, text, contentIntent);
+        notification.defaults |= Notification.DEFAULT_SOUND;
+        notification.defaults |= Notification.DEFAULT_VIBRATE;
 
         // Clear the notification when it is pressed
         notification.flags |= Notification.FLAG_AUTO_CANCEL;
 
         // Send the notification to the system.
         mNM.notify(NOTIFICATION, notification);
-
-
 
         // Stop the service when we are finished
         stopSelf();
